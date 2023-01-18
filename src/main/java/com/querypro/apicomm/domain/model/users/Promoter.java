@@ -27,8 +27,8 @@ public class Promoter implements UserDetails {
     private String lastNames;
     private String email;
     private String password;
-    //private Integer tel;
-    //private Integer bonus;
+    private String tel;
+    private Integer bonus;
     @Enumerated(EnumType.STRING)
     private Role role;
 

@@ -24,6 +24,8 @@ public class AuthenticationService {
                 .lastNames(request.getLastNames())
                 .email(request.getEmail())
                 .password(passwordEncoder.encode(request.getPassword()))
+                .tel(request.getTel())
+                .bonus(0)
                 .role(Role.USER)
                 .build();
         repository.save(promoter);
