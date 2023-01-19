@@ -1,5 +1,8 @@
-package com.querypro.apicomm.adapter.api;
+package com.querypro.apicomm.adapter.api.auth;
 
+import com.querypro.apicomm.adapter.api.auth.AuthenticationRequest;
+import com.querypro.apicomm.adapter.api.auth.AuthenticationResponse;
+import com.querypro.apicomm.adapter.api.auth.RegisterRequest;
 import com.querypro.apicomm.adapter.config.JwtService;
 import com.querypro.apicomm.adapter.repository.PromoterRepository;
 import com.querypro.apicomm.domain.model.users.Promoter;
