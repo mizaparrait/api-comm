@@ -1,4 +1,4 @@
-package com.querypro.apicomm.adapter.api;
+package com.querypro.apicomm.adapter.api.auth;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

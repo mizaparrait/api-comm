@@ -1,4 +1,4 @@
-package com.querypro.apicomm.adapter.api;
+package com.querypro.apicomm.adapter.api.auth;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,12 +9,8 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class RegisterRequest {
+public class AuthenticationRequest {
 
-    private String names;
-    private String lastNames;
     private String email;
     private String password;
-    private String tel;
-    private Integer bonus;
 }
