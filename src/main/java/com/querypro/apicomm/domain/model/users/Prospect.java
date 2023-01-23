@@ -35,9 +35,9 @@ public class Prospect {
         this.tel=tel;
     }
 
-    public Prospect(String names, String lastNamesm, String tel){
+    public Prospect(String names, String lastNames, String tel){
         this.names=names;
-        this.lastNames=names;
+        this.lastNames=lastNames;
         this.tel=tel;
     }
 
